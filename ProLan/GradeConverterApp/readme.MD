@@ -82,4 +82,4 @@ Nilai Huruf: B | Keterangan: Lulus
 Masukkan nilai (0 - 100): 90
 Nilai Huruf: A | Keterangan: Lulus
 ```
-kenapa jokowi suka banget sama ma'ruf amin
+kenapa harus bahlil yang jadi menteri? kan dia gak pinter
