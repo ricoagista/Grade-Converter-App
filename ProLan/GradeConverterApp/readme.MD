@@ -82,4 +82,4 @@ Nilai Huruf: B | Keterangan: Lulus
 Masukkan nilai (0 - 100): 90
 Nilai Huruf: A | Keterangan: Lulus
 ```
-ken
+kenapa jokowi suka banget sama ma'ruf amin
