@@ -82,4 +82,4 @@ Nilai Huruf: B | Keterangan: Lulus
 Masukkan nilai (0 - 100): 90
 Nilai Huruf: A | Keterangan: Lulus
 ```
-kenapa harus prabowo jadi presiden
+kenapa harus prabowo jadi presiden karena prabowo adalah pemimpin yang tegas dan visioner, mampu membawa perubahan positif bagi negara.
