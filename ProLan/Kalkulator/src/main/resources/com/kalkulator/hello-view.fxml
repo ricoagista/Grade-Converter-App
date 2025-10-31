@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.kalkulator.HelloController">
+    <VBox spacing="10" alignment="CENTER" prefWidth="300" prefHeight="400">
+        <Label fx:id="display" text="0" style="-fx-font-size: 24px; -fx-alignment: center; -fx-padding: 10;" />
+        <GridPane hgap="10" vgap="10" alignment="CENTER">
+            <Button text="7" onAction="#onNumberClick" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <Button text="8" onAction="#onNumberClick" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <Button text="9" onAction="#onNumberClick" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+            <Button text="/" onAction="#onNumberClick" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+
+            <Button text="4" onAction="#onNumberClick" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <Button text="5" onAction="#onNumberClick" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button text="6" onAction="#onNumberClick" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button text="*" onAction="#onNumberClick" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+
+            <Button text="1" onAction="#onNumberClick" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <Button text="2" onAction="#onNumberClick" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button text="3" onAction="#onNumberClick" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button text="-" onAction="#onNumberClick" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+
+            <Button text="0" onAction="#onNumberClick" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+            <Button text="C" onAction="#onClearClick" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button text="=" onAction="#onEqualClick" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button text="+" onAction="#onNumberClick" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+        </GridPane>
+    </VBox>
+</AnchorPane>
